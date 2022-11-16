@@ -11,6 +11,11 @@ window.onload = function () {
   let resultDelivery = document.getElementById("result__delivery");
   let resultProject = document.getElementById("result__project");
 
+  //Fixing Restaurant Value Option to LEGO PROJECT
+
+  let rightButton = document.getElementById("in_restaurant");
+  rightButton.value = "LEGO";
+
   formHandle.onsubmit = processForm;
 
   function processForm() {
