@@ -13,8 +13,13 @@ window.onload = function () {
 
   //Fixing Restaurant Value Option to LEGO PROJECT
 
-  let rightButton = document.getElementById("in_restaurant");
-  rightButton.value = "LEGO";
+  let correctLego = document.getElementById("in_restaurant");
+  correctLego.value = "LEGO";
+
+  //Fixing Humber News Value Option to Humber Current
+
+  let correctHumberCurrent = document.getElementById("in_humber");
+  correctHumberCurrent.value = "Humber Current";
 
   formHandle.onsubmit = processForm;
 
